@@ -163,4 +163,4 @@ This will set up a loop through all items in `@friends` and then place each item
 ```
 You can imagine how powerful iteration in erb is when you have an array of thousands of items that you have to display in your view!
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-view-and-controller-readme-walkthrough' title='Passing Data Between Views And Controllers in Sinatra'>Passing Data Between Views And Controllers in Sinatra</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>KWK-L1 Passing Data Between Views and Controllers in Sinatra</p>

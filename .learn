@@ -6,3 +6,5 @@ tags:
   - erb
 languages:
   - ruby
+
+parent_template: git@github.com:learn-co-curriculum/sinatra-view-and-controller-readme-walkthrough.git

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Climate Central</title>
+    <link rel= "stylesheet" type= "text/css" href="css/test.css">
+  </head>
+<body id = background>
+  <header>
+    <div class="container">
+      <h1 class="logo">CLIMATE CENTRAL
+      
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="regionquiz">Regions of the US</a></li>
+          <li><a href="aboutus">About</a></li>
+          <li><a href="resources">Resources</a></li>
+          <li><a href="climatequiz">Quiz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+   <br>
+    <form method="POST" action='/climatequiz'>
+    <div id="quiz-head">
+      <div id="quiz-header">What easy way to help the environment are you?</div>
+    </div>
+    <br>
+    <div class="question-div" id="room-question">
+      <div class="question">What nature activity do you love most?</div>
+    </div>
+    
+    <div class="answers">
+      
+      <label>
+        <div class="answer" type="room">
+             <img src="https://images.unsplash.com/photo-1496080174650-637e3f22fa03?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b7ca353cfcc4299e6c3d431ff862e1cf&auto=format&fit=crop&w=1906&q=80" />
+          <div class="info-area">
+            <input type="radio" name="room" value="1"/>
+  
+            <div class="text">Camping</div>
+          </div>
+        </div>
+      </label>
+      
+      <label>
+        <div class="answer" type="room">
+          <img src="https://images.unsplash.com/photo-1505487937174-f3ae7e86b81c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aa8760d869da76c1d2927b4539a2cb55&auto=format&fit=crop&w=2734&q=80" />
+          <div class="info-area">
+            <input type="radio" name="room" value="5"/>
+            <div class="text">Ziplining</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="room">
+          <img src="https://images.unsplash.com/photo-1521232002294-6d1cb35b6f8c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4507eb4bd354011d6f793668398c18b0&auto=format&fit=crop&w=1980&q=80" />
+          <div class="info-area">
+            <input type="radio" name="room" value="25"/>
+            <div class="text">Picnics</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="room" >
+          <img src="https://images.unsplash.com/photo-1495482237874-2abe1e1c92dc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d7ae65fb82e3ea51885de3f0e36f2c1b&auto=format&fit=crop&w=934&q=80" />
+          <div class="info-area">
+            <input type="radio" name="room" value="10"/>
+            <div class="text">Rope Course</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="room">
+          <img src="https://images.unsplash.com/photo-1474546652694-a33dd8161d66?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=04bf1ed464c62345a6b4de1b5a3e8ecb&auto=format&fit=crop&w=1962&q=80" />
+          <div class="info-area">
+            <input type="radio" name="room" value="15"/>
+      
+            <div class="text">Sports</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="room">
+          <img src="https://images.unsplash.com/photo-1461567933755-6c82be2197da?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ef4ea123e771440e3633c877e1ee060d&auto=format&fit=crop&w=2378&q=80" />
+          <div class="info-area">
+            <input type="radio" name="room" value="20"/>
+    
+            <div class="text">Swimming</div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="question-div" id="food-question">
+      <div class="question">What Pixar movie is your favorite?</div>
+    </div>
+    <div class="answers">
+      <label>
+        <div class="answer" type="food">
+          <img src="https://is5-ssl.mzstatic.com/image/thumb/Video117/v4/5a/69/b9/5a69b9d3-8e6c-2544-cc1c-37089e5286f2/source/227x227bb.jpg" />
+          <div class="info-area">
+            <input type="radio" name="food"  value="15"/>
+            <div class="text">Monsters Inc.</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="food">
+          <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-18hpovx_f8238c31.jpeg?region=0%2C0%2C300%2C450" />
+          <div class="info-area">
+            <input type="radio" name="food"  value="25"/>
+            <div class="text">The Incredibles (1 and 2)</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="food">
+          <img src="https://lumiere-a.akamaihd.net/v1/images/rich_insideout_header_mobile_ce11b9a6.jpeg?region=0,0,640,952" />
+          <div class="info-area">
+            <input type="radio" name="food" value="20"/>
+
+            <div class="text">Inside Out</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="food">
+          <img src="https://image.tmdb.org/t/p/w300_and_h450_bestv2/rhIRbceoE9lR4veEXuwCC2wARtG.jpg" />
+          <div class="info-area">
+            <input type="radio" name="food" value="5"/>
+            <div class="text">Toy Story 1, 2, 3</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="food">
+          <img src="https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-12561-17yo1p6_142a7bbd.jpeg" />
+          <div class="info-area">
+            <input type="radio" name="food" value="10"/>
+
+            <div class="text">Up</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="food">
+          <img src="https://lumiere-a.akamaihd.net/v1/images/pt_coco_31b33206.jpeg?region=0%2C0%2C300%2C450" />
+          <div class="info-area">
+            <input type="radio" name="food" value="1"/>
+            <div class="text">Coco</div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="question-div" id="char-question">
+      <div class="question">Choose a pizza topping.</div>
+    </div>
+    <div class="answers">
+      <label>
+        <div class="answer" type="char">
+          <img src="https://images.unsplash.com/photo-1448006531138-949dfde20011?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=050c25a5bc6ec1a9cd86fedbca8ac4dd&auto=format&fit=crop&w=1950&q=80" />
+          <div class="info-area">
+            <input type="radio" name="char" value="1"/>
+            <div class="text">Just cheese</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="char">
+          <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=efe01df2ebde79714be88d560479c9c7&auto=format&fit=crop&w=1950&q=80" />
+          <div class="info-area">
+            <input type="radio" name="char" value="20"/>
+            <div class="text">Extra cheese</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="char">
+          <img src="https://images.unsplash.com/photo-1525518392674-39ba1fca2ec2?ixlib=rb-0.3.5&s=d96380d6fb368a15561a5d0cc0d4a91c&auto=format&fit=crop&w=934&q=80" />
+          <div class="info-area">
+            <input type="radio" name="char" value="5"/>
+            <div class="text">Pepperoni</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="char">
+          <img src="https://peopledotcom.files.wordpress.com/2017/05/pineapple-pizza.jpg?crop=0px%2C205px%2C2000px%2C1051px&resize=1200%2C630" />
+          <div class="info-area">
+            <input type="radio" name="char" value="25"/>
+            <div class="text">Pineapple</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="char">
+          <img src="https://www.thespruceeats.com/thmb/J6YAgS1l5tulOlwuckj2hos0BGQ=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/Bacon-Pizza-58ade2395f9b58a3c9d4dd49.jpg" />
+          <div class="info-area">
+            <input type="radio" name="char" value="15"/>
+            <div class="text">Bacon</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="char">
+          <img src="https://www.manusmenu.com/wp-content/uploads/2016/02/1-Tuna-and-Onion-Pizza-5-1-of-1.jpg" />
+          <div class="info-area">
+            <input type="radio" name="char" value="10"/>
+            <div class="text">Onion</div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="question-div" id="sports-question">
+      <div class="question">What is your favorite ice cream flavor?</div>
+    </div>
+    <div class="answers">
+      <label>
+        <div class="answer" type="sport">
+          <img src="https://images.unsplash.com/photo-1469428946640-844b286ebf50?ixlib=rb-0.3.5&s=c96d39ff6ecb0c66bcd4cee6a1300d9e&auto=format&fit=crop&w=1950&q=80" />
+          <div class="info-area">
+            <input type="radio" name="sport" value="5"/>
+            <div class="text">Chocolate</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="sport">
+          <img src="https://images.unsplash.com/photo-1470422703728-ef495b7a172d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d4a63b135b73a2dd6e1b0de74fe004c6&auto=format&fit=crop&w=1571&q=80" />
+          <div class="info-area">
+            <input type="radio" name="sport" value="1"/>
+            <div class="text">Vanilla</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="sport">
+          <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fd67cdbdb7f3199afc745d4cdb4d10b1&auto=format&fit=crop&w=934&q=80" />
+          <div class="info-area">
+            <input type="radio" name="sport" value="15"/>
+            <div class="text">Strawberry</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="sport">
+          <img src="https://www.bakedbyrachel.com/wp-content/uploads/2015/06/chocchunkcookiedoughicecream1_bakedbyrachel.jpg" />
+          <div class="info-area">
+            <input type="radio" name="sport" value="20"/>
+            <div class="text">Cookie Dough</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="sport">
+          <img src="http://www.bakerella.com/images/2017/07/IMG_9220a.jpg" />
+          <div class="info-area">
+            <input type="radio" name="sport"  value="10"/>
+            <div class="text">Cookies n' Cream</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="sport" >
+          <img src="https://images.unsplash.com/photo-1502174832274-bc176e52765a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9a5c9497d393b23571332e8615775c2c&auto=format&fit=crop&w=934&q=80" />
+          <div class="info-area">
+            <input type="radio" name="sport"value="25"/>
+            <div class="text">Chocolate and Vanilla</div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="question-div" id="place-question">
+      <div class="question">What environmental issue concerns you most?</div>
+    </div>
+    <div class="answers">
+      <label>
+        <div class="answer" type="place" >
+          <img src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9b4b84d34e1fd4ac4bd40b630bf660ba&auto=format&fit=crop&w=1950&q=80" />
+          <div class="info-area">
+            <input type="radio" name="place"  value="10"/>
+            <div class="text">Deforestation</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="place" >
+          <img src="https://images.unsplash.com/photo-1521111756787-d2f69136cedf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dbe503acf8dce605cfcbafe693ecb46d&auto=format&fit=crop&w=2085&q=80" />
+          <div class="info-area">
+            <input type="radio" name="place" value="25"/>
+            <div class="text">Air Pollution</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="place" >
+          <img src="https://images.unsplash.com/photo-1456926631375-92c8ce872def?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=71a56e945d35610accf9f4d9566d7862&auto=format&fit=crop&w=1950&q=80" />
+          <div class="info-area">
+            <input type="radio" name="place" value="5"/>
+           
+            <div class="text">Endangered Species</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="place" >
+          <img src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41d899358a5cc59197010dfb926639cd&auto=format&fit=crop&w=1567&q=80" />
+          <div class="info-area">
+            <input type="radio" name="place" value="1"/>
+            <div class="text">Water Pollution</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="place">
+          <img src="https://images.unsplash.com/photo-1526139248783-bcae57f38be2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cf57fc56a4aeb6ab4426de8d1108240e&auto=format&fit=crop&w=1950&q=80" />
+          <div class="info-area">
+            <input type="radio" name="place" value="20"/><div class="text">Droughts</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="place">
+          <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=490f35d48ba74366f1f6b5d046621920&auto=format&fit=crop&w=1952&q=80" />
+          <div class="info-area">
+            <input type="radio" name="place" value="15"/>
+            <div class="text">Nonrenewable Energy</div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    
+   
+
+    <div id="error">
+      <div id="error-text">Please make sure to answer all the questions.</div>
+    </div>
+
+    <button type="submit" id="fin">Finished!</button>
+</form>
+<br> 
+<br>
+<br>
+<div class = font6> <%=@quizresult%></div>
+   
+<br>
+<br> 
+<br>
+<br> 
+<br> 
+</div>
+    <div class="results" id="super">
+      <div class="result">You got: Super Swearer</div>
+      <div class="extra-results">
+        <div class="explanation">Rinse your mouth with soap. Your speech is not only extreme and explicit,
+              but you also don't give a $@#^! about who hears you. Even your mean old gym teacher thinks
+              you swear too much. But that's ok, you swear loud and proud.</div>
+        <img class="img-result" src="https://s-media-cache-ak0.pinimg.com/originals/12/31/f3/1231f36f36ceb58e72d4ee39df0cb199.jpg" />
+      </div>
+    </div>
+
+    <div class="results" id="silent">
+      <div class="result">You got: Silent Swearer</div>
+      <div class="extra-results">
+        <div class="explanation">You swear a bunch, but it's always under your breath. In fact, you probably
+              say some of the most explicit swears out of all the types of swearers - it's just that nobody
+              ever hears you. Props to you for keeping it to yourself. Self control takes talent.</div>
+        <img class="img-result" src="https://media.giphy.com/media/8csLcEhNQmsIU/giphy.gif" />
+      </div>
+    </div>
+
+    <div class="results" id="hulk">
+      <div class="result">You got: Hulk Swearer</div>
+      <div class="extra-results">
+          <div class="explanation">You don't swear often, but when you do it's a raging rant that lasts for
+              hours. No one can stop you once you begin one of your swearing bouts because you become superhuman.
+              In fact, some question whether you even stop to take a breath when you start swearing - your swearing
+              just goes on and on. There's no time for a pause.</div>
+        <img class="img-result" src="http://stream1.gifsoup.com/view/505957/hulk-o.gif" />
+      </div>
+    </div>
+
+    <div class="results" id="clean">
+      <div class="result">You got: Squeaky Cleaner</div>
+      <div class="extra-results">
+        <div class="explanation">You have never sworn once in your life. In fact, you have never said
+              anything bad before in your life. Not only do you never swear, but your life also seems
+              to be perfectly put together. Some would tell you to live a little, but it is honestly
+              a feat to have stayed censored for so long.</div>
+        <img class="img-result" src="https://68.media.tumblr.com/ede674683d141efc7508b6d5c0416868/tumblr_o0sk7bbFN71u297yso1_250.gif" />
+      </div>
+    </div>
+
+    <div class="results" id="prepubescent">
+      <div class="result">You got: Prepubescent Swearer</div>
+      <div class="extra-results">
+        <div class="explanation">You're just trying to grow up. And the best way to become an adult, you
+              figure, is to swear a bunch. But it doesn't come quite naturally to you yet and your swearing sounds
+              a bit off. Just keep trying! Swearing takes practice!</div>
+        <img class="img-result" src="http://vignette1.wikia.nocookie.net/modernfamily/images/d/d3/1356128029479450_animate.gif/revision/latest?cb=20151214055225" />
+      </div>
+    </div>
+
+   
+  </body>
+</html>
+  

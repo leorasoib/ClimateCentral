@@ -1,4 +1,77 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis|Fredoka+One|Julius+Sans+One|Bungee+Inline|Megrim|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Dosis|Fredoka+One|Julius+Sans+One|Bungee+Inline|Megrim|Josefin+Sans|Work+Sans');
+
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: Dosis;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
 
 .font1{font-family: Megrim; text-align: center; border-style: solid; border-color: black;color: #632179; border-radius: 15px;padding: 15px;font-size: 350%; background-color: rgba(134, 130, 135, 0.20); }
 
@@ -68,3 +141,7 @@
      left: 800px;
     top: 1050px;
   cursor: pointer;}
+  
+  .size{font-size: 250%}
+  
+

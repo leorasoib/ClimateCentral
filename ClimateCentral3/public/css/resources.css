@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis%7CFredoka+One%7CJulius+Sans+One%7CBungee+Inline%7CMegrim%7CJosefin+Sans');
+body {
+	margin: 0;
+	background: #222;
+	font-family: Dosis;
+	font-weight: 800;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header {
+  background-color: rgba(134, 130, 135, 0.20);;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;font-family: Megrim; 
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;}
+
+.title {
+font-family :Megrim;
+font-size: 350%;
+text-align: center;
+border-style: solid;
+border-radius: 15px;
+border-color: rgba(255, 255, 255, 1.0);
+ border-: 200px;
+ background-color: rgba(255, 255, 255, 0.6)
+}
+
+
+#home {
+ font-size: 50%;
+ text-align: left;
+ display: inline;
+ font-family: Dosis;
+ border-style: solid;
+border-radius: 15px;
+border-color: black;
+border-: 200px;
+ background-color: rgba(255, 255, 255, 0.6);
+}
+
+#donate {
+ font-size: 50%;
+ text-align: right;
+ display: inline;
+ font-family: Dosis;
+ border-style: solid;
+border-radius: 15px;
+border-color: black;
+border-: 200px;
+ background-color: rgba(255, 255, 255, 0.6)
+}
+
+.ul1 {
+ font-size: 60%;
+font-family :Josefin Sans;
+border-style: solid;
+border-radius: 15px;
+border-color: black;
+border-: 200px;
+background: rgba(255, 255, 255, 0.6); width   : 600px;
+ height  : 400px; position: absolute;
+top: 300px; left:10px;
+}
+
+.ul2 {
+font-size: 60%;
+font-family :Josefin Sans;
+border-style: solid;
+border-radius: 15px;
+border-color: black;
+border-: 200px;
+background: rgba(255, 255, 255, 0.6); width   : 600px;
+ height  : 300px; position: absolute;
+top: 300px; right:10px;
+}
+
+
+body{background-image:
+ url("http://pluspng.com/img-png/png-ocean--1920.png"); background-repeat: no-repeat; background-size: 1500px 750px}

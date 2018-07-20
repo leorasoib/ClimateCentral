@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Fredoka+One|Julius+Sans+One|Bungee+Inline|Megrim|Josefin+Sans');
+
+body {
+	margin: 0;
+	background: #222;
+	font-family: Dosis;
+	font-weight: 800;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header {
+  background-color: rgba(134, 130, 135, 0.20);;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;font-family: Megrim; 
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;}
+
+.font{font-family: Megrim;}
+
+.font1{font-family: Megrim; border-style: solid; border-color: black;color: #632179; border-radius: 15px;padding: 15px;font-size: 200%; background-color: rgba(134, 130, 135, 0.20);text-align: center;margin-left: auto;
+    margin-right: auto;
+    width: 15em; }
+
+.font2{font-family: Dosis; text-align: center; color: #2A817F;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22em;
+    border-style: solid;
+  border-color: #632179;border-radius: 15px;padding: 15px;
+  
+}
+.font3{font-family: Dosis; text-align: center; color: black; font-weight: bold; border-radius: 15px;padding: 15px;}
+
+.font4{font-family: Dosis; text-align: center; color: #2A817F;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    border-style: solid;
+  border-color: #632179;border-radius: 15px;padding: 15px;}
+  
+  .font5{font-family: Dosis; text-align: center; color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    border-style: solid;
+  border-color: #632179;border-radius: 15px;padding: 15px;background-color: rgba(134, 130, 135, 0.8);}
+.font6{font-family: Dosis; text-align: center; color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+    border-style: solid;
+  border-color: #632179;border-radius: 15px;padding: 15px;background-color: rgba(134, 130, 135, 0.8);font-size: 150%;}
+
+#worldmap{position: absolute;
+    max-width: 1000px; 
+    max-height: auto; display: block;
+    margin-left: auto;
+    margin-right: auto; left: 220px;
+    top: 360px;}
+
+#background{background-image: url("http://pluspng.com/img-png/png-ocean--1920.png");}
+
+#overlay{position: absolute; 
+    max-width: 3%; 
+    max-height: 3%; 
+     left: 340px;
+    top: 570px;
+  cursor: pointer;}
+
+#overlay2{position: absolute; 
+    max-width: 3%; 
+    max-height: 3%; 
+     left: 470px;
+    top: 750px;
+  cursor: pointer;}
+  
+  #overlay3{position: absolute; 
+    max-width: 3%; 
+    max-height: 3%; 
+     left: 700px;
+    top: 670px;
+  cursor: pointer;}
+  
+  #overlay4{position: absolute; 
+    max-width: 3%; 
+    max-height: 3%; 
+     left: 680px;
+    top: 563px;
+  cursor: pointer;}
+  
+  #overlay5{position: absolute; 
+    max-width: 3%; 
+    max-height: 3%; 
+     left: 1000px;
+    top: 600px;
+  cursor: pointer;}
+  
+   #overlay6{position: absolute; 
+    max-width: 3%; 
+    max-height: 3%; 
+     left: 1100px;
+    top: 850px;
+  cursor: pointer;}
+  
+  #overlay7{position: absolute; 
+    max-width: 3%; 
+    max-height: 3%; 
+     left: 800px;
+    top: 1030px;
+  cursor: pointer;}
+  
+  #title {
+  background-color: rgba(255, 255, 255, 0.60);
+  font-size: 350%;
+  border-style: solid;
+  border-color: #632179;
+  border-radius: 15px;
+  font-family: Megrim;
+  text-align: center;
+  margin: 10px;margin-left: auto;
+    margin-right: auto;
+    width: 15em;
+}
+  
+.background2{background-image: url("https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/north-america/united-states/maine/maine-travel-guide-pages-NationalGeographic_2190431.ngsversion.1501171406931.adapt.1900.1.jpg");}
+
+.background3{background-image: url("http://www.lonelyplanet.com/travel-blog/tip-article/wordpress_uploads/2016/02/GettyRF_533946197.jpg");}
+
+.backgroundafrica{background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/53/Kalahari_C17.JPG");}
+
+.backgroundmidwest{background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/af/Lake_Michigan%2C_near_Traverse_City%2C_MI_%288740755233%29.jpg");}
+.backgroundgreatplains{background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/71/Pinnacles_Overlook_in_the_Badlands_%282975619033%29.jpg");}
+
+.backgroundsoutheast{background-image: url("https://www.publicdomainpictures.net/pictures/160000/velka/colorful-everglades-sunset.jpg");}
+.backgroundsouthwest{background-image: url("https://images.pexels.com/photos/158129/sedona-arizona-landscape-southwest-158129.jpeg?cs=srgb&dl=arid-landscape-mountain-158129.jpg&fm=jpg");}

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Climate Central</title>
+    <link rel= "stylesheet" type= "text/css" href="css/test.css">
+  </head>
+<body id = background>
+  <header>
+    <div class="container">
+      <h1 class="logo">CLIMATE CENTRAL
+      
+      </h1>
+
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="regionquiz">Regions of the US</a></li>
+          <li><a href="aboutus">About</a></li>
+          <li><a href="resources">Resources</a></li>
+          <li><a href="climatequiz">Quiz</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <form method=POST action='/climatequiz'>
+    <div id="quiz-head">
+      <div id="quiz-header">What easy way to help the environment are you?</div>
+    </div>
+    
+    <div class="question-div" id="room-question">
+      <div class="question">What does your room look like?</div>
+    </div>
+    
+    <div class="answers">
+      
+      <label>
+        <div class="answer" type="room">
+             <img src="https://s-media-cache-ak0.pinimg.com/736x/d5/d1/9a/d5d19a34940ed226a2f733fb2fe478d6.jpg" />
+          <div class="info-area">
+            <input type="radio" name="room" value="1"/>
+  
+            <div class="text">This dorm room</div>
+          </div>
+        </div>
+      </label>
+      
+      <label>
+        <div class="answer" type="room">
+          <img src="https://www.todaysparent.com/wp-content/uploads/2013/10/TP11_LittleKid.jpg" />
+          <div class="info-area">
+            <input type="radio" name="room" value="2"/>
+            <div class="text">This kid's room</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="room">
+          <img src="https://qph.ec.quoracdn.net/main-qimg-402358abd6ce3376fbd217c07381ed0d-c" />
+          <div class="info-area">
+            <input type="radio" name="room" value="3"/>
+            <div class="text">This organized cabinet space</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="room" >
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/57/36/f3/5736f3d57c1ccca0793e02ffdeb8183c.jpg" />
+          <div class="info-area">
+            <input type="radio" name="room" value="4"/>
+            <div class="text">This IKEA display</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="room">
+          <img src="http://cdn2.thegrindstone.com/wp-content/uploads/2011/07/MessyDesk-640x639.jpg" />
+          <div class="info-area">
+            <input type="radio" name="room" value="5"/>
+      
+            <div class="text">This desk</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="room">
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/df/43/8f/df438fc33d792bc7412f75a20e4ce79b.jpg" />
+          <div class="info-area">
+            <input type="radio" name="room" value="6"/>
+    
+            <div class="text">This slightly messy room</div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="question-div" id="food-question">
+      <div class="question">Pick your favorite food</div>
+    </div>
+    <div class="answers">
+      <label>
+        <div class="answer" type="food">
+          <img src="http://www.healthplusinc.com/uploads/9/0/5/8/90584463/pineapple-flavor-colon-cleanse-pineapple-stevia-health-plus-product-ingredients-digestive-cleanser_orig.png" />
+          <div class="info-area">
+            <input type="radio" name="food"  value="6"/>
+            <div class="text">Pineapple</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="food">
+          <img src="http://mybodymykitchen.com/wp-content/uploads/2015/02/wpid-20150201_131154-e1422934431994-300x300.jpg" />
+          <div class="info-area">
+            <input type="radio" name="food"  value="5"/>
+            <div class="text">Steamed broccoli</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="food">
+          <img src="http://cdn.shopify.com/s/files/1/1087/0872/products/Jus_trufs_-_90_dark_chocolate_-_01_grande.jpg?v=1487848690" />
+          <div class="info-area">
+            <input type="radio" name="food" value="4"/>
+
+            <div class="text">99% dark chocolate</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="food">
+          <img src="http://cdn.shopify.com/s/files/1/0250/7483/products/sour-patch-kids-berries-sour-candy_d9dec2c6-dc43-4cf9-aeff-ba5a56067541_grande.png?v=1483609581" />
+          <div class="info-area">
+            <input type="radio" name="food" value="3"/>
+            <div class="text">Sour Patch Kids</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="food">
+          <img src="https://images.fitpregnancy.mdpcdn.com/sites/fitpregnancy.com/files/styles/width_360/public/field/image/watermelon-wonder-at_0.jpg" />
+          <div class="info-area">
+            <input type="radio" name="food" value="2"/>
+
+            <div class="text">Watermelon</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="food">
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/e9/42/8e/e9428ed3925c892f8710e4acd9a61efe.jpg" />
+          <div class="info-area">
+            <input type="radio" name="food" value="1"/>
+            <div class="text">Scallops</div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="question-div" id="char-question">
+      <div class="question">Choose your favorite character</div>
+    </div>
+    <div class="answers">
+      <label>
+        <div class="answer" type="char">
+          <img src="http://static.dnaindia.com/sites/default/files/styles/square/public/2017/02/17/549230-mulan.jpg" />
+          <div class="info-area">
+            <input type="radio" name="char" value="4"/>
+            <div class="text">Mulan</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="char">
+          <img src="https://s-media-cache-ak0.pinimg.com/originals/5e/17/8a/5e178a193ea3fe26066e94babd385d55.jpg" />
+          <div class="info-area">
+            <input type="radio" name="char" value="3"/>
+            <div class="text">Moana</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="char">
+          <img src="https://advancedgraphics.com/wp-content/uploads/2013/08/817-Popeye-300x300.jpg" />
+          <div class="info-area">
+            <input type="radio" name="char" value="5"/>
+            <div class="text">Popeye</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="char">
+          <img src="https://s-media-cache-ak0.pinimg.com/236x/dd/71/02/dd71020d032d122d3ad3071f3a1a23ad.jpg" />
+          <div class="info-area">
+            <input type="radio" name="char" value="6"/>
+            <div class="text">These angry crabs</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="char">
+          <img src="http://i2.kym-cdn.com/entries/icons/original/000/021/894/Wave.jpg" />
+          <div class="info-area">
+            <input type="radio" name="char" value="1"/>
+            <div class="text">Baymax</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="char">
+          <img src="https://lumiere-a.akamaihd.net/v1/images/2b67814999ed3225d5e78590a4126a8b15625116.jpeg?region=0,0,600,600" />
+          <div class="info-area">
+            <input type="radio" name="char" value="2"/>
+            <div class="text">Cinderella</div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="question-div" id="sports-question">
+      <div class="question">Choose your favorite sport</div>
+    </div>
+    <div class="answers">
+      <label>
+        <div class="answer" type="sport">
+          <img src="http://www.bolandcollege.com/wp-content/uploads/2014/09/4d-Veroeshka-Grain-in-Action.jpg" />
+          <div class="info-area">
+            <input type="radio" name="sport" value="6"/>
+            <div class="text">Rugby</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="sport">
+          <img src="https://az616578.vo.msecnd.net/files/responsive/cover/main/desktop/2016/02/21/635916755976753520-1769308756_4b_c_ultimate_frisbee_bettys.jpg" />
+          <div class="info-area">
+            <input type="radio" name="sport" value="4"/>
+            <div class="text">Ultimate frisbee</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="sport">
+          <img src="http://static.dnaindia.com/sites/default/files/2014/09/22/269396-li-na-reuters.jpg" />
+          <div class="info-area">
+            <input type="radio" name="sport" value="5"/>
+            <div class="text">Tennis</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="sport">
+          <img src="https://az760333.vo.msecnd.net/~/media/property/sunriverresort/activities/sunriver-resort_golf_junior-lesson-crpd566x566.jpg?ts=eb2eec84-41cc-46a0-aecb-3c72780917d2" />
+          <div class="info-area">
+            <input type="radio" name="sport" value="2"/>
+            <div class="text">Golf</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="sport">
+          <img src="http://sportsnewsireland.com/wp-content/uploads/2015/04/irish-curling.jpg" />
+          <div class="info-area">
+            <input type="radio" name="sport"  value="1"/>
+            <div class="text">Curling</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="sport" >
+          <img src="http://cdn.24.co.za/files/Cms/General/d/93/58cbdf2a3bc849b49bfc2db793f5272b.jpg" />
+          <div class="info-area">
+            <input type="radio" name="sport"value="3"/>
+            <div class="text">What are sports?</div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div class="question-div" id="place-question">
+      <div class="question">Choose a place you would like to go</div>
+    </div>
+    <div class="answers">
+      <label>
+        <div class="answer" type="place" >
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/1c/a3/8c/1ca38c9b77f106673a2ea9a1901e4cf7.jpg" />
+          <div class="info-area">
+            <input type="radio" name="place"  value="3"/>
+            <div class="text">This resort</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="place" >
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/9e/9b/6f/9e9b6fb44802cb49f2fb7774c3d0ec90.jpg" />
+          <div class="info-area">
+            <input type="radio" name="place" value="4"/>
+            <div class="text">This campsite</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="place" >
+          <img src="https://i2.wp.com/travelmamas.com/wp-content/uploads/2015/09/disneyland_smart_phone_characters.png?resize=400%2C400&ssl=1" />
+          <div class="info-area">
+            <input type="radio" name="place" value="2"/>
+           
+            <div class="text">Disneyland</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="place" >
+          <img src="http://www.colusacasino.com/wp-content/uploads/2016/05/holder_image_02.jpg" />
+          <div class="info-area">
+            <input type="radio" name="place" value="6"/>
+            <div class="text">This casino</div>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="place">
+          <img src="https://ae01.alicdn.com/kf/HTB15aKrNXXXXXXxXXXXq6xXFXXXX/Gourd-moxibustion-moxa-font-b-box-b-font-moxa-burner-Navel-spa-font-b-massage-b.jpg" />
+          <div class="info-area">
+            <input type="radio" name="place" value="1"/>
+          </div>
+        </div>
+      </label>
+      <label>
+        <div class="answer" type="place">
+          <img src="https://www.outsideonline.com/sites/default/files/styles/img_600x600/public/migrated-images/womens-hiking-gear-main_ph.jpg?itok=FwIslRy_" />
+          <div class="info-area">
+            <input type="radio" name="place" value="5"/>
+            <div class="text">Hiking</div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    
+   
+
+    <div id="error">
+      <div id="error-text">Please make sure to answer all the questions.</div>
+    </div>
+
+    <button type="submit" id="fin">Finished!</button>
+    
+    <%= @answer%> 
+</form>
+
+
+
+
+
+</div>
+    <div class="results" id="super">
+      <div class="result">You got: Super Swearer</div>
+      <div class="extra-results">
+        <div class="explanation">Rinse your mouth with soap. Your speech is not only extreme and explicit,
+              but you also don't give a $@#^! about who hears you. Even your mean old gym teacher thinks
+              you swear too much. But that's ok, you swear loud and proud.</div>
+        <img class="img-result" src="https://s-media-cache-ak0.pinimg.com/originals/12/31/f3/1231f36f36ceb58e72d4ee39df0cb199.jpg" />
+      </div>
+    </div>
+
+    <div class="results" id="silent">
+      <div class="result">You got: Silent Swearer</div>
+      <div class="extra-results">
+        <div class="explanation">You swear a bunch, but it's always under your breath. In fact, you probably
+              say some of the most explicit swears out of all the types of swearers - it's just that nobody
+              ever hears you. Props to you for keeping it to yourself. Self control takes talent.</div>
+        <img class="img-result" src="https://media.giphy.com/media/8csLcEhNQmsIU/giphy.gif" />
+      </div>
+    </div>
+
+    <div class="results" id="hulk">
+      <div class="result">You got: Hulk Swearer</div>
+      <div class="extra-results">
+          <div class="explanation">You don't swear often, but when you do it's a raging rant that lasts for
+              hours. No one can stop you once you begin one of your swearing bouts because you become superhuman.
+              In fact, some question whether you even stop to take a breath when you start swearing - your swearing
+              just goes on and on. There's no time for a pause.</div>
+        <img class="img-result" src="http://stream1.gifsoup.com/view/505957/hulk-o.gif" />
+      </div>
+    </div>
+
+    <div class="results" id="clean">
+      <div class="result">You got: Squeaky Cleaner</div>
+      <div class="extra-results">
+        <div class="explanation">You have never sworn once in your life. In fact, you have never said
+              anything bad before in your life. Not only do you never swear, but your life also seems
+              to be perfectly put together. Some would tell you to live a little, but it is honestly
+              a feat to have stayed censored for so long.</div>
+        <img class="img-result" src="https://68.media.tumblr.com/ede674683d141efc7508b6d5c0416868/tumblr_o0sk7bbFN71u297yso1_250.gif" />
+      </div>
+    </div>
+
+    <div class="results" id="prepubescent">
+      <div class="result">You got: Prepubescent Swearer</div>
+      <div class="extra-results">
+        <div class="explanation">You're just trying to grow up. And the best way to become an adult, you
+              figure, is to swear a bunch. But it doesn't come quite naturally to you yet and your swearing sounds
+              a bit off. Just keep trying! Swearing takes practice!</div>
+        <img class="img-result" src="http://vignette1.wikia.nocookie.net/modernfamily/images/d/d3/1356128029479450_animate.gif/revision/latest?cb=20151214055225" />
+      </div>
+    </div>
+
+   
+  </body>
+</html>
+  

@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis%7CFredoka+One%7CJulius+Sans+One%7CBungee+Inline%7CMegrim%7CJosefin+Sans');
+body {
+	margin: 0;
+	background: #222;
+	font-family: Dosis;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background-color: rgba(134, 130, 135, 0.20);;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;font-family: Megrim; 
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;}
+
+.font1 {
+ font-size: 350%;
+  border-style: solid;
+  border-color: black;
+  border-weight: thick;
+  border-radius: 15px;
+  font-family: Megrim;
+  text-align: center;
+  margin: 10px;margin-left: auto;
+    margin-right: auto;
+    width: 15em;Background-color: rgba(255, 255, 255, 0.6)
+}
+
+.article {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.60);
+  font-family: Josefin Sans;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: black;
+  margin: 10px; text-align: center;font-size: 110%;
+}
+
+
+
+
+body{background-image:
+ url("https://luminous-landscape.com/wp-content/uploads/2017/10/Antarctica3-1.jpg"); background-repeat: no-repeat; background-size: 1500px 750px}
